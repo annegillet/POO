@@ -13,6 +13,7 @@ class Robot:
     
     def move_on(self):
         self.y += 1
+        print(f"Mon robot {self.name} avance de 1 pas et {self.state}.")
 
     def turn_right(self):
         self.x += 1
@@ -24,7 +25,8 @@ class Robot:
             self.direction = "Nord"
         else:
             self.direction = "Est"
+        print(f"Mon robot {self.name} tourne à droite et {self.state}.")
 
     def state(self):
-        self.__repr__ = f" Position : {self.x, self.y}, direction : {self.direction}"
+        self.__repr__ = f"se situe à {self.x, self.y}, en direction {self.direction}"
         print(self.__repr__)
