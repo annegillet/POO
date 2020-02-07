@@ -29,3 +29,7 @@ newgen_robot.state()
 newgen_robot.turn_around()
 newgen_robot.state()
 
+newgen_robot.boost()
+newgen_robot.move_on(10)
+newgen_robot.display()
+newgen_robot.state()

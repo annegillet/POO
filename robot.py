@@ -6,17 +6,18 @@ class Robot:
         self.direction = "Est"
         self.x = 0
         self.y = 0
-
-    def position(self, x, y):
-        self.x = x
-        self.y = y
     
     def move_on(self):
-        self.y += 1
-        print(f"Mon robot {self.name} avance de 1 pas et {self.state}.")
+        if self.direction == "Est":
+            self.x += 1
+        elif self.direction == "Sud":
+            self.y -= 1
+        elif self.direction == "Ouest":
+            self.x -= 1
+        else:
+            self.y += 1
 
     def turn_right(self):
-        self.x += 1
         if self.direction == "Est":
             self.direction = "Sud"
         elif self.direction == "Sud":
@@ -25,8 +26,8 @@ class Robot:
             self.direction = "Nord"
         else:
             self.direction = "Est"
-        print(f"Mon robot {self.name} tourne à droite et {self.state}.")
+        print(f"Mon robot {self.name} tourne à droite vers {self.direction}.")
 
     def state(self):
-        self.__repr__ = f"se situe à {self.x, self.y}, en direction {self.direction}"
+        self.__repr__ = f"Il se situe à {self.x, self.y}, en direction {self.direction}"
         print(self.__repr__)
