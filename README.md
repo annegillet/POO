@@ -1,11 +1,6 @@
 # My First Oriented Object Programming Project
 
-This project combine several tools such as 
-> SQL database, 
-
-> Describe table from a csv file you can download on your own
-
-> Random Forest Model on MNIST database
+This project is about a the movements of a Robot which can becom a New Generation Robot if we want to. 
 
 ## Getting Started
 
@@ -26,5 +21,20 @@ pip install -r requirements.txt
 
 ### Installing
 
-Then, run the app.py on your code editor and a web page will appear.
+You just have to run the instructions.py that you can change these as you see fit.
+
+For example, you can rename your Robot:
+`first_robot = Robot("IRobot")
+first_robot.state()`
+
+Or ask to move on whatever direction:
+`first_robot.move_on()
+first_robot.turn_right()
+first_robot.state()`
+
+Or make it better:
+`newgen_robot = RobotNG('Super Robot')`
+
+And boost it:
+`newgen_robot.boost()`
 
