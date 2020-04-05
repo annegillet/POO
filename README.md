@@ -13,12 +13,6 @@ Code editor is required to read the code in the file app.py
 
 > Spyder 
 
-You also have to install the requirements.txt
-
-```
-pip install -r requirements.txt
-```
-
 ### Installing
 
 You just have to run the instructions.py that you can change these as you see fit.
