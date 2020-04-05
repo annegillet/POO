@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Code editor is required to read the code in the file app.py
+Code editor is required to read the code in the file instructions.py
 > Visual Studio Code
 
 > Spyder 
