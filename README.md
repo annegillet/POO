@@ -15,7 +15,7 @@ Code editor is required to read the code in the file instructions.py
 
 ### Installing
 
-You just have to run the instructions.py that you can change these as you see fit.
+You just have to run instructions.py that you can change these as you see fit.
 
 For example, you can rename your Robot:
 `first_robot = Robot("IRobot")
